@@ -1,0 +1,53 @@
+#text-button1,#text-button2,#text-button3,#text-button4,#text-button5,#text-button6,#text-button7,#text-button8,#text-button9,#text-button10,#text-button11,#text-button12,#text-button13 {
+	font-weight: bold;
+	cursor: pointer;
+  }
+
+#text1,#text2,#text3,#text4,#text5,#text6,#text7,#text8,#text9,#text10,#text11,#text12,#text13{
+	font-size: 40px;
+}
+
+
+
+
+.numall{
+	margin: 0 auto;
+	height: 200px;
+	width: 200px;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	position: relative;
+	padding: 0;
+	padding-bottom: 1rem;
+}
+
+.addnum {
+	display: flex;
+	margin: 0 auto;
+	height: 200px;
+	align-content: center;
+	padding: 0;
+	padding-bottom: 1rem;
+	width: 230px;
+	position: absolute;
+	bottom: -72%;
+	left: -22%;
+	z-index: -1;
+}
+
+
+.num {
+	width: 2.8em;
+	height: 4em;
+}
+
+p.line{
+	position: absolute;
+	padding: 0;
+	bottom: 0;
+	left: -25%;
+	width: 230px;
+	border-top: 2px solid black; 
+	z-index: -2;
+}

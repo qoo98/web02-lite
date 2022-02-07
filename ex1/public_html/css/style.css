@@ -1,0 +1,35 @@
+.allimage{
+  display: flex; 
+  justify-content: space-between;
+
+}
+.box{
+  position: relative;
+  border: 1px solid #ddd;
+  height: 100%;
+}
+.box p{
+  position: absolute;
+  text-align: center;
+  font-weight: bold;
+  width: 100%;
+  bottom: -15%;
+  left: 50%;
+  margin: 0;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  background-color: white; 
+   box-shadow: 5px 5px 5px rgba(224, 223, 223, 0.5);
+  cursor: pointer;
+}
+.box:hover{
+  box-shadow: 5px 5px 5px rgba(255, 254, 254, 0.5);
+  transform: translateY(-10px);
+  transition-duration: 0.2s;
+}
+span {
+  font-weight: lighter;
+  font-size: 11px;
+}
+
