@@ -12,7 +12,7 @@ body {
 }
 
 #counter {
-  color: rgb(26, 151, 235);
+  color: #2799ff;
   font-size: 100px;
-  font-family: sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
